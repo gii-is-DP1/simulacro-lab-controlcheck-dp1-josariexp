@@ -50,7 +50,7 @@ public class Test3 {
         for(ProductType pt:productTypes)
         {
             if(pt.getId()==1){
-                assertEquals(pt.getName(),"Accessories","The name of the product type with id:1 should be 'Accesories'");
+                assertEquals(pt.getName(),"Accessories","The name of the product type with id:1 should be 'Accessories'");
             }else if(pt.getId()==2){
                 assertEquals(pt.getName(),"Food","The name of the product type with id:2 should be 'Food'");
             }else
